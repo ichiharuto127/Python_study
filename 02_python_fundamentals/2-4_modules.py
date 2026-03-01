@@ -10,7 +10,7 @@ print(math.e)            # → 2.71828...  自然対数の底
 print(math.sqrt(25))     # → 5.0         平方根
 print(math.log(100, 10)) # → 2.0         対数（底10）
 print(math.log2(8))      # → 3.0         2を底とする対数
-print(math.sin(math.pi)) # → ~0.0        サイン
+print(math.sin(math.pi)) # → ~0.0        サイン(0に近い値だが0ではない)
 print(math.cos(0))       # → 1.0         コサイン
 print(math.floor(4.7))   # → 4           切り捨て
 print(math.ceil(4.2))    # → 5           切り上げ
