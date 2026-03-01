@@ -43,7 +43,7 @@ random.shuffle(numbers)
 print(numbers)  # → 順番がランダムに変わる
 
 # リストからk個をランダムに選ぶ（重複なし）
-print(random.sample(range(1, 43), 6))  # ロト6風
+print(random.sample(range(1, 43), 6))
 
 # 再現性のある乱数（シードを固定）
 random.seed(42)
