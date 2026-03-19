@@ -27,7 +27,7 @@ for i, fruit in enumerate(fruits, start=1):  # start=1 で1から始める
 # --- map: 全要素に関数を適用 ---
 numbers = [1, 2, 3, 4, 5]
 squared = list(map(lambda x: x**2, numbers))
-# lambdaはユーザー定義関数。xを受け取ってx**2を返す関数を定義している。
+# lambdaは無名関数。xを受け取ってx**2を返す関数を定義している。
 
 print(squared)  # → [1, 4, 9, 16, 25]
 
