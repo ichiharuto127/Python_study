@@ -206,3 +206,8 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 Python_study.code-workspace
+
+# Kaggle等の練習用データセット（再配布制限があるため公開リポジトリに含めない）
+gender_submission.csv
+test.csv
+09_pandas/train.csv
